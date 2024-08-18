@@ -255,7 +255,7 @@ refrence taken from https://v1-30.docs.kubernetes.io/docs/setup/production-envir
             - name: server1-container
                 image: anshulsharma05/server1-image 
                 ports:
-                - containerPort: 5001
+                - containerPort: 80
 
     2.2 for Server 2:
 
@@ -277,7 +277,7 @@ refrence taken from https://v1-30.docs.kubernetes.io/docs/setup/production-envir
             - name: server2-container
                 image: anshulsharma05/server2-image
                 ports:
-                - containerPort: 5002
+                - containerPort: 80
 
 
     2.3 deploy the servers to the kubernetes cluster:
